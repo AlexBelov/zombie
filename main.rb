@@ -21,6 +21,7 @@ class Game
 			puts "WIN!"
 		else
 			puts "FAILED!"
+			puts "The word was #{@word}"
 		end
 	end
 
